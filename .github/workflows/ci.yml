@@ -34,4 +34,4 @@ jobs:
         
     - name: Build
       run: |
-        bazel build //tensorflow/tools/lib_package:libtensorflow
+        Bazelisk build //tensorflow/tools/lib_package:libtensorflow
