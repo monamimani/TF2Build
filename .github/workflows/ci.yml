@@ -34,4 +34,5 @@ jobs:
         
     - name: Build
       run: |
+        cd ./tensorflow
         Bazelisk build //tensorflow/tools/lib_package:libtensorflow
