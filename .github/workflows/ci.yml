@@ -30,6 +30,7 @@ jobs:
     - name: Configure
       run: |
         cd ./tensorflow
+        Bazelisk --version
         python ./configure.py
         
     - name: Build
